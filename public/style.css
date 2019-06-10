@@ -1,9 +1,12 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Verdana';
+  background-color: #cdedf6;
+  color: #042a2b;
 }
 
 a {
   text-decoration: none;
+  color: #042a2b;
 }
 
 label {
@@ -18,4 +21,20 @@ nav a {
 form div {
   margin: 1em;
   display: inline-block;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #5eb1bf;
+  padding: 2%;
+  border-radius: 25%;
+}
+
+/* .my-name {
+  justify-self: flex-start;
+} */
+
+.navbar-links {
+  align-self: center;
 }

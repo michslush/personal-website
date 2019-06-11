@@ -5,7 +5,7 @@ export const About = () => {
     <div className="body-container">
       <h1>About Me</h1>
       <div id="about-div">
-        <div id="my-photo">
+        <div className="photos">
           <img src="australia.jpg" alt="Australia" width="100%" />
           <img src="gh.jpg" alt="GH" width="100%" />
         </div>

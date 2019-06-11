@@ -7,3 +7,4 @@ export {default as Navbar} from './navbar';
 export {default as Home} from './Home';
 export {default as LeftNav} from './LeftNav';
 export {default as About} from './About';
+export {default as Projects} from './Projects';

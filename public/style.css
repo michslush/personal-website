@@ -99,6 +99,26 @@ nav {
   text-align: justify;
 }
 
-#my-photo {
+.my-photo {
   width: 30%;
+  margin: 5%;
+}
+
+#bullets {
+  margin: 5%;
+}
+
+.photos {
+  width: 30%;
+  margin: 5%;
+}
+
+#projects-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
 }

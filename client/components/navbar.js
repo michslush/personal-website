@@ -10,9 +10,18 @@ const Navbar = () => (
     <div className="navbar-links">
       <Link to="/home">Home</Link>
       <Link to="/about">About</Link>
-      <Link to="/experience">Resume</Link>
+      <a href="Michaela_Resume.pdf" target="_blank">
+        Resume
+      </a>
       <Link to="/projects">Projects</Link>
-      <Link to="/contact">Contact</Link>
+      <a
+        href="mailto:michaelaburns0@gmail.com?Subject=Hi%20Michaela!"
+        target="_blank"
+        without
+        rel="noopener noreferrer"
+      >
+        Contact
+      </a>
     </div>
   </nav>
 );

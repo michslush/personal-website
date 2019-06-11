@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {withRouter, Route, Switch} from 'react-router-dom';
-import {Home, LeftNav} from './components';
+import {Home, LeftNav, About, Contact} from './components';
 
 class Routes extends Component {
   render() {
@@ -9,6 +9,7 @@ class Routes extends Component {
         <LeftNav />
         <Switch>
           <Route path="/home" component={Home} />
+          <Route path="/about" component={About} />
         </Switch>
       </div>
     );

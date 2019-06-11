@@ -1,10 +1,17 @@
 import React, {Component} from 'react';
-import {withRouter, Route} from 'react-router-dom';
-import {Home} from './components';
+import {withRouter, Route, Switch} from 'react-router-dom';
+import {Home, LeftNav} from './components';
 
 class Routes extends Component {
   render() {
-    return <Route path="/home" component={Home} />;
+    return (
+      <div id="routes-div">
+        <LeftNav />
+        <Switch>
+          <Route path="/home" component={Home} />
+        </Switch>
+      </div>
+    );
   }
 }
 

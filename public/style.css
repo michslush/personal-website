@@ -17,6 +17,16 @@ body {
   height: 100%;
 }
 
+.my-name {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+}
+
+.my-name > h1 {
+  margin: 2%;
+}
+
 a {
   text-decoration: none;
   color: #042a2b;
@@ -85,32 +95,38 @@ nav {
 
 #about-div {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin: 5%;
+  margin: 4%;
+  width: 100%;
 }
 
 #about-paragraph {
-  width: 50%;
-  height: 75%;
+  width: 40%;
+  margin: 2%;
 }
 
 #about-paragraph p {
   text-align: justify;
+  margin: 5%;
 }
 
 .my-photo {
   width: 30%;
   margin: 5%;
+  border-radius: 50%;
+}
+
+.my-photo img {
+  border-radius: 50%;
 }
 
 #bullets {
   margin: 5%;
+  text-align: center;
 }
 
 .photos {
-  width: 30%;
-  margin: 5%;
+  width: 40%;
+  margin: 2%;
 }
 
 #projects-container {
@@ -121,4 +137,8 @@ nav {
 #projects {
   display: flex;
   flex-direction: column;
+}
+
+.body-container h1 {
+  height: 10px;
 }

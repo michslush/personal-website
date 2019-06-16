@@ -148,7 +148,7 @@ nav {
 }
 
 .individual-project {
-  border: 1px solid #042a2b;
+  /* border: 1px solid #042a2b; */
   margin: 4%;
   padding: 2%;
   display: flex;

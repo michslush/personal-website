@@ -171,12 +171,12 @@ var Home = function Home() {
     width: "100%"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "bullets"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Saint Michael's College Alumn"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Former Calculus Teacher"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Grace Hopper Program at Fullstack Academy of Code Alumn"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Currently a Teaching Fellow at", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Saint Michael's College Alumn"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Former Calculus Teacher"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Grace Hopper Program at Fullstack Academy of Code Alumn"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Currently a Teaching Fellow at", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://www.gracehopper.com/",
     target: "_blank",
     without: true,
     rel: "noopener noreferrer"
-  }, "Grace Hopper"))));
+  }, "Grace Hopper Academy"))));
 };
 /* harmony default export */ __webpack_exports__["default"] = (Home);
 
@@ -494,7 +494,11 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Switch"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
         exact: true,
         path: "/",
-        component: _components__WEBPACK_IMPORTED_MODULE_2__["Home"]
+        render: function render() {
+          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Redirect"], {
+            to: "/home"
+          });
+        }
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
         exact: true,
         path: "/home",

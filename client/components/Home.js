@@ -7,10 +7,10 @@ export const Home = () => {
         <img src="michaela_linkedIn_photo.jpg" alt="Photo of Me" width="100%" />
       </div>
       <div id="bullets">
-        <p>Saint Michael's College Alumn</p>
-        <p>Former Calculus Teacher</p>
-        <p>Grace Hopper Program at Fullstack Academy of Code Alumn</p>
-        <p>
+        <h4>Saint Michael's College Alumn</h4>
+        <h4>Former Calculus Teacher</h4>
+        <h4>Grace Hopper Program at Fullstack Academy of Code Alumn</h4>
+        <h4>
           Currently a Teaching Fellow at{' '}
           <a
             href="https://www.gracehopper.com/"
@@ -18,9 +18,9 @@ export const Home = () => {
             without
             rel="noopener noreferrer"
           >
-            Grace Hopper
+            Grace Hopper Academy
           </a>
-        </p>
+        </h4>
       </div>
     </div>
   );

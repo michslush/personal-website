@@ -14,7 +14,10 @@ body {
 }
 
 #container {
-  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .my-name {
@@ -75,12 +78,14 @@ nav {
 #left-nav {
   display: flex;
   flex-direction: column;
-  padding: 2%;
+  padding: 3%;
   height: 100%;
   width: 8%;
+  position: fixed;
   justify-content: center;
-  align-content: center;
   flex-shrink: 0;
+  align-self: flex-end;
+  justify-self: center;
 }
 
 .body-container {

@@ -8,3 +8,6 @@ export {default as Home} from './Home';
 export {default as LeftNav} from './LeftNav';
 export {default as About} from './About';
 export {default as Projects} from './Projects';
+export {Login, Signup} from './auth-form';
+export {default as UserHome} from './user-home';
+export {default as AdminForm} from './AdminForm';

@@ -35,6 +35,10 @@ a {
   color: #042a2b;
 }
 
+h4 > a {
+  color: #5eb1bf;
+}
+
 label {
   display: block;
 }
@@ -153,7 +157,6 @@ nav {
 }
 
 .individual-project {
-  /* border: 1px solid #042a2b; */
   margin: 4%;
   padding: 2%;
   display: flex;
@@ -161,7 +164,7 @@ nav {
 }
 
 h4 > a:hover {
-  color: #5eb1bf;
+  color: #042a2b;
 }
 
 a:hover {

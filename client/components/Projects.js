@@ -6,6 +6,19 @@ const CodeCapstone = () => {
       <h2>Code Aloud</h2>
       <div className="project-content">
         <h4>
+          Code Aloud is a technical interview preparation application focusing
+          on the approach to a coding challenge, and how to communicate that
+          approach before coding begins. We offer speech-to-text functionality
+          to simulate aspects of interviewing, as well as a code sandbox with
+          tests built in so users can check their work.
+        </h4>
+        <h4>
+          My Responsibilities: Created and imported interactive line graph
+          feature using Recharts. Developed front-end components using
+          JavaScript and React. Deployed website via Heroku and enabled
+          continuous integration with GitHub via Travis CI.
+        </h4>
+        <h4>
           View the deployed site at{' '}
           <a
             color="inherit"
@@ -52,6 +65,18 @@ const GraceShopper = () => {
     <div className="individual-project">
       <h2>Cloud Nine</h2>
       <div className="project-content">
+        <h4>
+          Cloud Nine is an e-commerce website, designed to sell nine different
+          types of air. Some features of the site include sign-up and Google
+          O-Auth, shopping carts unique to each user, and checkout.
+        </h4>
+        <h4>
+          My Responsibilities: Developed front-end components and back-end
+          routes to display the store’s inventory, shopping cart, and checkout
+          feature using JavaScript, Sequelize, Express, React, and Redux;
+          Created tests for component, models, and API functionality using Mocha
+          and Chai
+        </h4>
         <h4>
           View the deployed site at{' '}
           <a

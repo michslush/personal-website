@@ -279,7 +279,7 @@ var CodeCapstone = function CodeCapstone() {
     className: "individual-project"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Code Aloud"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-content"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "View the deployed site at", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Code Aloud is a technical interview preparation application focusing on the approach to a coding challenge, and how to communicate that approach before coding begins. We offer speech-to-text functionality to simulate aspects of interviewing, as well as a code sandbox with tests built in so users can check their work."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "My Responsibilities: Created and imported interactive line graph feature using Recharts. Developed front-end components using JavaScript and React. Deployed website via Heroku and enabled continuous integration with GitHub via Travis CI."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "View the deployed site at", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     color: "inherit",
     href: "https://codealoud.herokuapp.com/",
     target: "_blank",
@@ -306,7 +306,7 @@ var GraceShopper = function GraceShopper() {
     className: "individual-project"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Cloud Nine"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-content"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "View the deployed site at", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Cloud Nine is an e-commerce website, designed to sell nine different types of air. Some features of the site include sign-up and Google O-Auth, shopping carts unique to each user, and checkout."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "My Responsibilities: Developed front-end components and back-end routes to display the store\u2019s inventory, shopping cart, and checkout feature using JavaScript, Sequelize, Express, React, and Redux; Created tests for component, models, and API functionality using Mocha and Chai"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "View the deployed site at", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     color: "inherit",
     href: "https://cl0udnine.herokuapp.com/",
     target: "_blank",
@@ -470,8 +470,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _user_home__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./user-home */ "./client/components/user-home.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "UserHome", function() { return _user_home__WEBPACK_IMPORTED_MODULE_6__["default"]; });
 
-/* harmony import */ var _AdminForm__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./AdminForm */ "./client/components/AdminForm.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "AdminForm", function() { return _AdminForm__WEBPACK_IMPORTED_MODULE_8__["default"]; });
+/* harmony import */ var _AdminForm__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./AdminForm */ "./client/components/AdminForm.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "AdminForm", function() { return _AdminForm__WEBPACK_IMPORTED_MODULE_7__["default"]; });
 
 /**
  * `components/index.js` exists simply as a 'central export' for our components.
@@ -514,7 +514,7 @@ var Navbar = function Navbar() {
   }, "Home"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/about"
   }, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "Michaela_Resume.pdf",
+    href: "Michaela_Burns_Resume.pdf",
     target: "_blank"
   }, "Resume"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/projects"

@@ -106,19 +106,18 @@ nav {
   display: flex;
   margin: 4%;
   width: 100%;
-  flex-direction: row;
-  align-content: center;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 #about-paragraph {
   margin: 2%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 
 #about-paragraph p {
   text-align: justify;
-  margin: 5%;
+  margin: 2%;
 }
 
 .my-photo {
@@ -178,4 +177,15 @@ a > img:hover {
 
 p > a:hover {
   color: #5eb1bf;
+}
+
+.about-img {
+  width: 100%;
+  border-radius: 10%;
+  align-self: flex-end;
+  flex-wrap: wrap;
+}
+
+#about-images {
+  width: 50%;
 }

@@ -14,7 +14,6 @@ export const About = () => {
             became eager to learn more about programming after I was promoted to
             a role where I used Excel and several automated scheduling apps.
           </p>
-          <img src="australia.jpg" alt="Australia" width="100%" />
           <p>
             I moved back to the U.S. and taught myself Python, thinking I wanted
             to learn more about data science. I moved to New York City and
@@ -22,7 +21,6 @@ export const About = () => {
             Fullstack Academy of Code's Grace Hopper Program which stood out to
             me above all other coding bootcamps in the New York area.
           </p>
-          <img src="gh.jpg" alt="GH" width="100%" />
           <p>
             Over the last six months, I've been able to hone my problem-solving
             skills in a programming environment, and I'm now familiar with the
@@ -33,6 +31,11 @@ export const About = () => {
             further challenged with interesting projects so I can grow as a
             software engineer.
           </p>
+        </div>
+        <div id="about-images">
+          <img src="australia.jpg" alt="Australia" className="about-img" />
+          <img src="gh.jpg" alt="GH" className="about-img" />
+          <img src="fellows.jpg" alt="Fellows" className="about-img" />
         </div>
       </div>
     </div>

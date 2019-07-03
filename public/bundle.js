@@ -133,15 +133,21 @@ var About = function About() {
     id: "about-div"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "about-paragraph"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "After earning my bachelor's degree in mathematics, I taught high school calculus for two years. I knew I wanted to explore other career paths, and then I was given the amazing opportunity to move to Melbourne, Australia. I worked there in sales for six months but became eager to learn more about programming after I was promoted to a role where I used Excel and several automated scheduling apps."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "After earning my bachelor's degree in mathematics, I taught high school calculus for two years. I knew I wanted to explore other career paths, and then I was given the amazing opportunity to move to Melbourne, Australia. I worked there in sales for six months but became eager to learn more about programming after I was promoted to a role where I used Excel and several automated scheduling apps."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I moved back to the U.S. and taught myself Python, thinking I wanted to learn more about data science. I moved to New York City and decided to pursue a career in software engineering instead. I found Fullstack Academy of Code's Grace Hopper Program which stood out to me above all other coding bootcamps in the New York area."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Over the last six months, I've been able to hone my problem-solving skills in a programming environment, and I'm now familiar with the many layers of full-stack web development. I graduated from Grace Hopper in May and I recently began my current position as a teaching fellow at Grace Hopper in their three-month fellowship program. After the fellowship, I will be seeking roles in which I can be further challenged with interesting projects so I can grow as a software engineer.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "about-images"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "australia.jpg",
     alt: "Australia",
-    width: "100%"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I moved back to the U.S. and taught myself Python, thinking I wanted to learn more about data science. I moved to New York City and decided to pursue a career in software engineering instead. I found Fullstack Academy of Code's Grace Hopper Program which stood out to me above all other coding bootcamps in the New York area."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "about-img"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "gh.jpg",
     alt: "GH",
-    width: "100%"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Over the last six months, I've been able to hone my problem-solving skills in a programming environment, and I'm now familiar with the many layers of full-stack web development. I graduated from Grace Hopper in May and I recently began my current position as a teaching fellow at Grace Hopper in their three-month fellowship program. After the fellowship, I will be seeking roles in which I can be further challenged with interesting projects so I can grow as a software engineer."))));
+    className: "about-img"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "fellows.jpg",
+    alt: "Fellows",
+    className: "about-img"
+  }))));
 };
 /* harmony default export */ __webpack_exports__["default"] = (About);
 
@@ -203,7 +209,7 @@ var Home = function Home() {
     target: "_blank",
     without: true,
     rel: "noopener noreferrer"
-  }, "Grace Hopper Academy"))));
+  }, "The Grace Hopper Program"), ' ', "at Fullstack Academy of Code")));
 };
 /* harmony default export */ __webpack_exports__["default"] = (Home);
 

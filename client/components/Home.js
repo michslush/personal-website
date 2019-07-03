@@ -18,8 +18,9 @@ export const Home = () => {
             without
             rel="noopener noreferrer"
           >
-            Grace Hopper Academy
-          </a>
+            The Grace Hopper Program
+          </a>{' '}
+          at Fullstack Academy of Code
         </h4>
       </div>
     </div>
